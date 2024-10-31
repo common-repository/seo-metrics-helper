@@ -1,0 +1,15 @@
+# Changelog
+
+## [24/09/2024]
+
+### Fixed Anchor Tag Click issues
+
+## [09/05/2024]
+
+### Added
+- Implemented dynamic password generation for accessing protected websites from outside.
+- Introduced options for Terms and Conditions.
+- Modified plugin installation behavior for SEO-Metrics only, now displaying the welcome page upon installation.
+
+### Changed
+- Replaced static password generation with dynamic password for accessing protected websites from outside.

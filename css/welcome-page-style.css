@@ -1,0 +1,74 @@
+.seo-metrics-welcome-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px 30px 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.seo-metrics-welcome-page img {
+    width: 250px;
+}
+.seo-metrics-welcome-page .seo-metrics-title {
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0px;
+}
+.seo-metrics-status-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#seo-metrics-connect-button {
+    background-color: #009ef7;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 30px;
+    margin-top: 20px;
+}
+#seo-metrics-connect-button:hover {
+    background-color: #26adf8;
+}
+.seo-metrics-status-connected {
+    font-size: 18px;
+    color: #008000;
+}
+.seo-metrics-status-connected-icon::after {
+    content: '✔';
+    font-size: 14px;
+    left:0;
+    top: 2px;
+    width: 20px; 
+    height: 20px;
+    text-align: center;
+    background: #008000;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 3px 5px 5px;
+}
+.seo-metrics-status-error {
+    font-size: 18px;
+    color: #FF0000;
+}
+.seo-metrics-status-error-icon::after {
+    content: 'x';
+    font-size: 16px;
+    left:0;
+    top: 2px;
+    width: 20px; 
+    height: 20px;
+    text-align: center;
+    background: #FF0000;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 0px 6px 5px;
+}
